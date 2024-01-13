@@ -20,7 +20,7 @@ mongoose.connect("mongodb://localhost:27017/howtoaddtodatabase101");
 //6: We need to create a schema that tells the database for the format of what we are saving.
 var nameSchema = new mongoose.Schema({
 	firstName: String,
-	lastNameName: String,
+	lastName: String,
 });
 //7: We create a model for the data.
 var User = mongoose.model("User", nameSchema);
